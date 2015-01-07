@@ -18,7 +18,7 @@ ex: pp2 = problema propusa 2
 ```
 
 
-prx = problema rezolvata x
+prx = problema rezolvata x (transpunere in c++ din pseudocod)
 ```
 ex: pr4 = problema rezolvata 4
 ```
