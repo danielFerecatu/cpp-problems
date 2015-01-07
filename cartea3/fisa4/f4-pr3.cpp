@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-unsigned int a, b, c;
+    unsigned int a, b, c;
 
     cout << "a="; cin >> a;
     cout << "b="; cin >> b;

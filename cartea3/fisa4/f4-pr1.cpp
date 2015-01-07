@@ -11,8 +11,10 @@ int main() {
 
     ok=0;
 
-    for (i=1;x/3;) {
-        if (x==i*i*i) ok=1;
+    for (int i=1; x/3;) {
+        if (x==i*i*i) {
+            ok=1;
+        }
     }
 
     if (ok==0) {

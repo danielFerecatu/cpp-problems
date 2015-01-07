@@ -16,6 +16,8 @@ int main() {
         a = n/1000;
 
         cout << a << " " << b << " " << c << " " << d << endl;
+    } else {
+        cout << "valoarea trebuie sa fie cuprinsa intre 1000 si 9999" << endl;
     }
-        else { cout << "valoarea trebuie sa fie cuprinsa intre 1000 si 9999" << endl;}
+
 }

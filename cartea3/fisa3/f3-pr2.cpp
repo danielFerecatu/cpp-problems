@@ -3,9 +3,9 @@ using namespace std;
 
 int main() {
 
-int n, a, b, s;
+    int n, a, b, s;
 
-cout << "n="; cin >> n;
+    cout << "n="; cin >> n;
 
     if (n>=10 && n<=99) {
 
@@ -13,8 +13,12 @@ cout << "n="; cin >> n;
         b = n/10;
         s = a+b;
 
-        if (n%s==0) cout << "da" << endl;
-            else cout << "nu" << endl;
+        if (n%s==0) {
+            cout << "da" << endl;
+        }
+        else {
+            cout << "nu" << endl;
+        }
     }
     else {
         cout << "numarul trebuie sa aiba 2 cifre" << endl;
