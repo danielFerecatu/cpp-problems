@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int s1_2_ab() {
@@ -67,6 +66,6 @@ int s1_2_cd() {
 
 int main() {
 
-s1_2_ab();
+    s1_2_ab();
 
 }
