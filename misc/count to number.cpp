@@ -1,10 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int number = 20;
+int number;
 
 
 int main() {
+
+do {
+    cout << "number= ";
+    cin >> number;
+}
 
 // - Show all odd numbers using a for loop
 cout << "Odd:" << endl;
@@ -15,6 +20,8 @@ cout << "Odd:" << endl;
     cout << endl;
 
 cout << "===========" << endl << endl;
+
+
 
 
 // - Show all odd numbers using a for loop
@@ -28,6 +35,8 @@ cout << "Backwards:" << endl;
 cout << "===========" << endl << endl;
 
 
+
+
 // - Count by fives using a for loop.
 cout << "Fives:" << endl;
 
@@ -37,5 +46,7 @@ cout << "Fives:" << endl;
     cout << endl;
 
 cout << "===========" << endl << endl;
+
+return 0;
 
 }

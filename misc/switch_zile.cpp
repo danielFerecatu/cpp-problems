@@ -6,86 +6,90 @@ using namespace std;
 
 int main() {
 
-    int zi;
+int zi;
 
-    do {
+do {
 
-        cout << "Introdu numarul zilei din saptamana: "; cin >> zi;
+    cout << "Introdu numarul zilei din saptamana: ";
+    cin >> zi;
 
-        if ( zi>7 ) {
+    if ( zi>7 ) {
 
-            do {
-                cout << "! numarul trebuie sa fie mai mic decat 7" << endl << endl;
-                cout << "Mai incearca: "; cin >> zi;
-                cout << endl;
-            }
-            while ( zi>7 );
-
-            switch(zi) {
-                case 1:
-                    cout << "Luni";
-                    break;
-                case 2:
-                    cout << "Marti";
-                    break;
-                case 3:
-                    cout << "Miercuri";
-                    break;
-                case 4:
-                    cout << "Joi";
-                    break;
-                case 5:
-                    cout << "Vineri";
-                    break;
-                case 6:
-                    cout << "Sambata";
-                    break;
-                case 7:
-                    cout << "Duminica";
-                    break;
-                default:
-                    cout << "Nu cunosc ziua." << endl;
-            }
+        do {
+            cout << "! numarul trebuie sa fie mai mic decat 7" << endl << endl;
+            
+            cout << "Mai incearca: ";
+            cin >> zi;
 
             cout << endl;
-
         }
-        else {
+        while ( zi>7 );
 
-            cout << endl;
-
-            switch(zi) {
-                case 1:
-                    cout << "Luni";
-                    break;
-                case 2:
-                    cout << "Marti";
-                    break;
-                case 3:
-                    cout << "Miercuri";
-                    break;
-                case 4:
-                    cout << "Joi";
-                    break;
-                case 5:
-                    cout << "Vineri";
-                    break;
-                case 6:
-                    cout << "Sambata";
-                    break;
-                case 7:
-                    cout << "Duminica";
-                    break;
-                default:
-                    cout << "Nu cunosc ziua." << endl;
-            }
-
-            cout << endl;
-
+        switch(zi) {
+            case 1:
+                cout << "Luni";
+                break;
+            case 2:
+                cout << "Marti";
+                break;
+            case 3:
+                cout << "Miercuri";
+                break;
+            case 4:
+                cout << "Joi";
+                break;
+            case 5:
+                cout << "Vineri";
+                break;
+            case 6:
+                cout << "Sambata";
+                break;
+            case 7:
+                cout << "Duminica";
+                break;
+            default:
+                cout << "Nu cunosc ziua." << endl;
         }
+
+        cout << endl;
 
     }
-    while ( zi==0 );
+    else {
 
-    return 0;
+        cout << endl;
+
+        switch(zi) {
+            case 1:
+                cout << "Luni";
+                break;
+            case 2:
+                cout << "Marti";
+                break;
+            case 3:
+                cout << "Miercuri";
+                break;
+            case 4:
+                cout << "Joi";
+                break;
+            case 5:
+                cout << "Vineri";
+                break;
+            case 6:
+                cout << "Sambata";
+                break;
+            case 7:
+                cout << "Duminica";
+                break;
+            default:
+                cout << "Nu cunosc ziua." << endl;
+        }
+
+        cout << endl;
+
+    }
+
+}
+while ( zi==0 );
+
+return 0;
 }
